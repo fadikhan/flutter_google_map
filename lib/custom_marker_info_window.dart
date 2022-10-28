@@ -167,7 +167,7 @@ class _CustomMarketInfoWindowState extends State<CustomMarketInfoWindow> {
             currentLng.toString() +
             '&radius=1500&type=' +
             type +
-            '&key=AIzaSyD30y7KCme6ltKBgSlYRZxVWmTJqQgA6C4');
+            '&key=Your_API_KEY');
 
     var response = await http.post(url);
 
